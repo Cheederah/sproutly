@@ -1,5 +1,5 @@
 import { AnimatePresence } from "framer-motion";
-import { getSession, useSession, signOut } from "next-auth/react";
+import { getSession, useSession } from "next-auth/react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useRecoilState } from "recoil";
