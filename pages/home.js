@@ -34,7 +34,6 @@ function Home({ providers }) {
             <HeaderLink Icon={GroupIcon} text="People" />
             <HeaderLink Icon={OndemandVideoSharpIcon} text="Learning" />
             <HeaderLink Icon={BusinessCenterIcon} text="Jobs" /> 
-            <p onClick={signOut}>Signout</p>
           </div>
 
           {Object.values(providers).map((provider) => (
